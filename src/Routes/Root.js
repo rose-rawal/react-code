@@ -5,7 +5,7 @@ export default function Root() {
             <header className='header'>
                 <a className="logo" href="/">home</a>
                 <nav>
-                    <Link to="">new</Link>
+                    <Link to="/new">new</Link>
                     <a href="https://github.com/rose-rawal" target='_blank'>github</a>
                     <Link to="/about">about</Link>
                 </nav>

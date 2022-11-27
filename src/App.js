@@ -51,6 +51,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from './Routes/About'
 import Home from './Routes/Home'
 import Root from './Routes/Root';
+import NewPost from "./Routes/newPost";
 import './App.css'
 export default function App(){
     const router=createBrowserRouter([{
@@ -64,6 +65,9 @@ export default function App(){
             },{
                 path:'/about',
                 element:<About/>
+            },{
+                path:'/new',
+                element:<NewPost/>
             }
         ]
     }])
